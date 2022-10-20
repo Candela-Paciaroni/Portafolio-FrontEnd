@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  canvas {
+      display: block;
+      top: 0;
+      left: 0;
+      background-color: #1a162a; 
+      position: absolute;
+      z-index: -100;
+  }
+  #text{
+visibility: hidden;
+pointer-events: none;
+  }
+  .container-sobre-mi{
+    z-index: 100;
+    position: absolute;
+    top: 70vh;
+    width: 100%;
+  }
+  .sobre-mi{
+    padding: 10px 15px!important;
+    background: linear-gradient(45deg,#a91c4c, #7b072e)!important;
+    color: white!important;
+    border: 1px solid #a91c4c;
+    font-family: "Montserrat-medium";
+    letter-spacing: 2px;
+    box-shadow: 3px 3px 7px #470f22;
+  }

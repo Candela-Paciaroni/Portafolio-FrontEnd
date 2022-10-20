@@ -1,0 +1,106 @@
+:root{
+    --fondo-nav-var:#a91c4c;
+    --nav-bar-detalles:#671d36;
+    --nav-select:#cb265d;
+    --color-select-letra:#ebdcbf;
+}
+
+a:hover{
+    color: white;
+}
+
+.redes-sociales{
+    position: fixed;
+    top:200px;
+    box-shadow:4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+.redes-sociales li a {
+text-decoration: none;
+}
+.redes-sociales li{
+    padding: 6px 3px!important;
+}
+.redes-sociales li i{
+   font-size: 35px;
+   color: white;
+}
+.redes-sociales li.linkedin{
+    background-color: #0054ba!important;
+}
+.redes-sociales li.github{
+    background-color: #4e545a!important;
+}
+.redes-sociales li.outlook{
+    background-color:rgb(255, 227, 227)!important;
+}
+.redes-sociales li.outlook i{
+    color: #285aeb!important;
+
+}
+
+.redes-sociales li.whatssap{
+ background:linear-gradient(45deg, green,rgb(159, 255, 91));
+}
+.redes-sociales li.instagram{
+    background: radial-gradient(circle at 25% 110%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%),radial-gradient(circle at 25% 110%,#b9a800 0,#938500 5%,#b10f00 45%,#8c0061 60%,#002ca9 90%);
+}
+
+
+
+/*
+.grupo-botones button{
+    padding: 12px 12px 12px 12px!important;
+    border-radius: 0px!important;
+    background-color:var(--fondo-nav-var);
+    border-bottom: 1px solid var(--nav-bar-detalles);
+}
+
+.grupo-botones button a{
+    text-decoration: none;
+  color: white;
+}
+.grupo-botones button a i{
+    font-size: 30px;
+}
+
+.grupo-botones button :hover{
+margin-left: 100px !important;
+    background-color: red;
+}
+#linkedin{
+    background-color:#0077ba;
+    transition: transform 425ms cubic-bezier(.05,.65,.18,1);
+}
+*/
+
+
+
+
+
+
+
+@media (max-width: 1100px) {
+    .grupo-botones{
+        top: 110px!important;
+    } 
+    .grupo-botones button{
+        padding: 17px 10px 17px 10px!important;
+    }
+    
+    .grupo-botones button a{
+   font-size: small!important;
+    
+    }
+
+}
+
+@media (max-width: 900px) {
+    .grupo-botones button{
+        padding: 15px 6px 15px 6px!important;
+    }
+    .grupo-botones button a{
+        font-size: 11px!important;
+         
+         }
+        
+        }

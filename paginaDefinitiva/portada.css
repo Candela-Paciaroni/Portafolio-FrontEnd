@@ -1,0 +1,66 @@
+.portada{
+    z-index: -100!important;
+}
+.contenedor-tarjeta{
+    margin-top: 20px;
+background-color: rgba(109, 14, 14, 0)!important;
+border: none!important;
+z-index: 100;
+}
+
+.contenedor-tarjeta .card-bodyd h5{
+    overflow: hidden;
+}
+.imagen-personal{
+    width: 180px!important;
+    height: 180px!important;
+}
+
+.info-perfil h4{
+    overflow: hidden;
+}
+.pencil-perfil{
+    position: absolute!important;
+    left:180px
+}
+.pencil-portada{
+    position: absolute;
+    right: 120px;
+}
+ .desactive{
+visibility: hidden;
+pointer-events: none;
+}
+
+@media(max-width:1100px){
+    .imagen-personal{
+        width: 150px!important;
+        height: 150px!important;
+        margin-left: 10px;
+    }
+    .pencil-perfil{
+        left:140px
+    }
+    .info-perfil h4{
+        font-size: 16px!important;
+    }
+    .texto-imagen{
+        font-size: 14px;
+
+    }
+}
+
+@media(max-width:800px){
+    .imagen-personal{
+        width: 150px!important;
+        height: 150px!important;
+        margin-left: 10px;
+    }
+    .pencil-perfil{
+        left:140px
+    }
+    .info-perfil h4{
+        font-size: 13px!important;
+    }
+ 
+}
