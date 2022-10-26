@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI PORTAFOLIO</title>
+    <script src="https://kit.fontawesome.com/d1a4c4905f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
+    ">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="redes-sociales.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="nuevo-diseño.css">
+    <link rel="stylesheet" href="sobre-mi.css">
+    <link rel="stylesheet" href="portada-verdadera.css">
+    <link rel="import" href="sobre-mi.html">
+    <script defer src="texto.js"></script>
+    <script defer src="sobre-mi.js"></script>
+
+</head>
+<body>
+
+    <div class="portada d-flex justify-content-end">
+        <canvas id="canvas1"></canvas>
+        <div class="titulo-portada d-flex justify-content-center">
+            <h2 class="d-flex flex-column">DESARROLLADORA WEB FULL STACK JR.</h2>
+        </div>
+        <input type="text" id="text" placeholder="CANDELA PACIARONI">
+        
+        <div class="menu">
+            <div class="toggle">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+                <li style="--i:1"class="follow-me linkedin"><a href="https://www.linkedin.com/in/candelapaciaroni/" target="_blank" id="linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li style="--i:2" class="follow-me github"><a href="https://github.com/Candela-Paciaroni" target="_blank"id="github"><i class="fa-brands fa-github"></i></a></li>
+                <li style="--i:3" class="follow-me outlook"><a href="mailto:candela.paciaroni@hotmail.com" target="_blank"id="outlook"><i class="fa-solid fa-envelope"></i></a></li>
+                <li style="--i:4" class="follow-me whatssap"><a href="https://walink.co/d4edd1" target="_blank" id="whatssap"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li style="--i:5" class="follow-me instagram"><a href="https://www.instagram.com/cande_np/?hl=es" target="_blank" id="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+            
+            </div>
+    </div>
+
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let menu = document.querySelector('.menu');
+        toggle.onclick= function(){
+            menu.classList.toggle('active');
+        }
+        </script>
+
+    <header id="inicio" class=" d-flex justify-content-center align w-100 pt-3">
+        <nav class="barra-inicio d-flex justify-content-start align-items-center">
+            <div class="izq d-flex flex-column align-items-md-center">
+                <a href="#"><img class="logo" src="recursos/logo-argentina-programa-sin-fondo.png" alt="logo Argentina Programa"></a>
+                <span>#YoProgramo</span>
+            </div>
+            <div class="centro ms-4 pb-3">
+                    <ul class="d-flex align-items-center">
+                        <li class="item-menu select"><a href="#inicio" class="">INICIO</a></li>
+                        <li class="item-menu "><a href="#experiencia.html">EXPERIENCIA</a></li>
+                        <li class="item-menu "><a href="#educacion">EDUCACIÓN</a></li>
+                        <li class="item-menu "> <a href="proyectos">PROYECTOS</a></li>
+                        <li class="item-menu "><a href="#skills">SKILLS</a></li>
+                        <li class="item-menu "><a href="#proyectos">INTERESES</a></li>
+                    </ul>
+                </div>
+            <div class="der d-flex justify-content-end">
+                    <button type="button" class="btn btn-secondary ingresar"><a href="#salir">INGRESAR</a> </button>
+                </div>
+             </nav>
+            </header>
+
+    <section class="sobre-mi d-flex justify-content-center align-items-center">
+                <div class="container-sobre-mi d-flex">
+                    <div class="sobre-mi-der d-flex flex-column align-content-between justify-content-between me-5"> 
+                        <h2 class="d-flex mb-2 titulo-sobre-mi">SOBRE MI </h2>
+                        <img src="recursos/yo.jpeg" class="imagen-perfil mt-5 mb-3"alt="">
+                        <h2><a href="#" target="_blank" rel="noopener noreferrer" class="descargar-cv">DESCARGAR CV</a></h2>
+                    </div>
+                    <div class="sobre-mi-izq ms-5">
+                        <span class="d-flex ">
+                            ¡HOLA!<br>
+                            SOY DEVELOPER WEB FULL STACK JR.  Y ESTUDIANTE DE INGENIERÍA EN INFORMÁTICA. <br>
+                            MI OBJETIVO ES OBTENER EXPERIENCIA, APLICANDO EXPANDIENDO MIS CONOCIMIENTOS <BR>
+                            EN PROYECTOS Y NUEVOS DESAFÍOS.<BR>
+                            SOY RESPONSABLE, AUTODIDACTA Y AUTOGESTIONO MI TIEMPO.<BR>
+                            AMO TRABAJAR EN EQUIPO Y CULTIVAR MI CREATIVIDAD.
+                        </span>
+                        <div class=" mt-5 d-flex cuadro-info justify-content-around align-items-center">
+                            <ul class="ps-4">
+                                <li>Santa Fe, Argentina</li>
+                                <li>15/07/1997 (25 años)</li>
+                                <li>1 año de experiencia</li>
+                            </ul>
+                            <ul class="pt-2 pb-2">
+                                <li>Presencial o remoto</li>
+                                <li>Disponibilidad Full time
+                                </li>
+                                <li>Inglés intermedio.
+                                </li>
+                            </ul>
+                    </div>
+              
+                    </div>
+                </div>
+             
+            </section>
+
+     
+
+      
+
+
+    -->
+</body>
+</html>

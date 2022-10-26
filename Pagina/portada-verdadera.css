@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: visible;
+  }
+  canvas {
+      display: block;
+      top: 0;
+      left: 0;
+      position: absolute;
+      z-index: -100;
+      height: 100%;
+      background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
+      url(recursos/puente-colgante.jpg);
+      background-position: center;
+      background-size: cover;
+  }
+
+
+  a{
+    text-decoration: none;
+  }
+  #text{
+visibility: hidden;
+pointer-events: none;
+  }
+
+  .titulo-portada{
+    width: 700px;
+    height: 300px;
+    position: relative;
+    top:350px;
+
+  }
+  .titulo-portada h2{
+    color:#a2f8f8;
+  }
+/*
+  .arrow a i{
+    position: absolute;
+    top: 35vh;
+    right: 5vw;
+    color:rgba(216, 248, 255, 0.737)!important;
+    font-size: 2em;
+  }
+  .arrow a i:hover{
+    top: 34vh;
+    color:rgb(255, 255, 255)!important;
+    font-size: 4em;
+
+
+  }
+  .container-sobre-mi{
+    z-index: 100;
+    position: absolute;
+    top: 70vh;
+    width: 100%;
+  }
+  .sobre-mi{
+    padding: 13px 30px!important;
+   background: linear-gradient(45deg,#a91c4c, #7b072e)!important; 
+    border: 1px solid #a91c4c;
+    font-family: "Montserrat-medium";
+    letter-spacing: 2px;
+    box-shadow: 3px 3px 7px #470f22;
+  }
+  .sobre-mi a{
+    color: white!important;
+    font-size: 1.3em;
+
+  }
+  .sobre-mi:hover{
+    border: 1px solid #5f0423;
+    background: linear-gradient(45deg,#691a34, #5f0423)!important; 
+    box-shadow: 0px 0px 0px #470f22;
+
+  }
+  .sobre-mi:hover a{
+  color:rgb(226, 255, 180)!important;}
+  .sobre-mi:active{
+    border: 1px solid #5f0423!important;
+    box-shadow: 0px 0px 0px #470f22;
+
+  }
+  .sobre-mi:focus{
+    border: 1px solid #5f0423!important;
+    box-shadow: 0px 0px 0px #470f22!important;
+  }

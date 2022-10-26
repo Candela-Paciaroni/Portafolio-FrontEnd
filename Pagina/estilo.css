@@ -1,0 +1,20 @@
+* {
+    margin: 0!important;
+    padding: 0!important;
+    box-sizing: border-box!important;
+    overflow-x: hidden;
+  }
+  body{
+    background-color: rgb(255, 255, 255)!important;
+  }
+  
+  
+  .pencil{
+    border-radius: 50%!important;
+    width: 40px!important;
+    height: 40px!important;
+    align-items: center!important;
+    display: flex!important;
+    justify-content: center!important;
+    font-size: 20px!important;
+  }

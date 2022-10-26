@@ -1,0 +1,12 @@
+.contenedor-secciones{
+    margin-top: 400px!important;
+   
+}
+section{
+    background-color: darkgrey;
+  
+}
+
+section h2, .cuerpo-tar h5, .cuerpo-tar h6{
+    overflow: hidden!important;
+}

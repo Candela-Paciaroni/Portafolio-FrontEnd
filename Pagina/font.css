@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Montserrat-regular";
+    src: url(fuentes/Montserrat-Regular.otf);
+    font-style: normal;
+    font-weight: 300;
+  }
+@font-face {
+    font-family: "Montserrat-bold";
+    src: url(fuentes/Montserrat-Bold.otf);
+    font-style: bold;
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: "Montserrat-medium";
+    src: url(fuentes/Montserrat-Medium.otf);
+    font-style: medium;
+    font-weight: 400;
+  }
+ 
+  @font-face {
+    font-family: "Montserrat-light";
+    src: url(fuentes/Montserrat-Light.otf);
+    font-style: light;
+    font-weight: 200;
+  }
+
+  @font-face{
+    font-family:"Raleway-bold";
+    src: url(fuentes/Raleway-Bold.ttf);
+    font-style: bold;
+    font-weight: 600;    
+  }
