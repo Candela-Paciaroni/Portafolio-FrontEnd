@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI PORTAFOLIO</title>
+    <script src="https://kit.fontawesome.com/d1a4c4905f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
+    ">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js
+    "></script>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="redes-sociales.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="nuevo-diseño.css">
+    <link rel="stylesheet" href="sobre-mi.css">
+    <link rel="stylesheet" href="portada-verdadera.css">
+    <link rel="import" href="sobre-mi.html">
+    <link rel="stylesheet" href="nav-responsive.css">
+    <link rel="stylesheet" href="experiencia.css">
+    <script defer src="texto.js"></script>
+    <script defer src="sobre-mi.js"></script>
+    <script src="Funciones.js"></script>
+
+</head>
+<body>
+
+        <div class="portada"id="inicio">
+        <canvas id="canvas1">
+        </canvas>
+        <div class="datos-portada d-flex justify-content-center align-items-center">
+            <h1 class="nombre">CANDELA PACIARONI</h1>
+         <img src="./recursos/yo.jpeg" class="yo-responsive"alt="">
+            <div class="titulo-portada d-flex justify-content-xl-start justify-content-xxl-around w-75 me-5 ms-5">
+                <h2 class="d-flex flex-column ms-5 me-5">DESARROLLADORA WEB FULL STACK JR.</h2>
+            </div>
+        </div>
+     
+        <input type="text" id="text" placeholder="CANDELA PACIARONI">
+        
+        <div class="menu">
+            <div class="toggle">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+                <li style="--i:1"class="follow-me linkedin"><a href="https://www.linkedin.com/in/candelapaciaroni/" target="_blank" id="linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li style="--i:2" class="follow-me github"><a href="https://github.com/Candela-Paciaroni" target="_blank"id="github"><i class="fa-brands fa-github"></i></a></li>
+                <li style="--i:3" class="follow-me outlook"><a href="mailto:candela.paciaroni@hotmail.com" target="_blank"id="outlook"><i class="fa-solid fa-envelope"></i></a></li>
+                <li style="--i:4" class="follow-me whatssap"><a href="https://walink.co/d4edd1" target="_blank" id="whatssap"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li style="--i:5" class="follow-me instagram"><a href="https://www.instagram.com/cande_np/?hl=es" target="_blank" id="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+            
+            </div>
+    
+        </div>
+
+
+         <script>
+        let toggle = document.querySelector('.toggle');
+        let menu = document.querySelector('.menu');
+        toggle.onclick= function(){
+            menu.classList.toggle('active');
+        }
+        </script>
+
+
+        <header  class=" d-flex justify-content-center align-content-center w-100 pt-3">
+        <nav class="barra-inicio d-flex justify-content-start justify-content-lg-between align-items-center">
+            <div class="izq d-flex flex-column align-items-md-center">
+                <!--desactivado--><a href="#" class="logo-enlace"><img class="logo" src="recursos/logo-argentina-programa-sin-fondo.png" alt="logo Argentina Programa"></a>
+                <span class="subtitulo">#YoProgramo </span><!--desactivado-->
+            </div>
+
+            <div class="centro ms-4 pb-3" id="centro">
+                    <ul class="d-flex align-items-center pt-4 menu-responsive">
+                      <li class="w-100 d-flex justify-content-center pt-5"><button type="button " class="w-75 btn btn-info ingresar-responsive p-3 fs-1">INGRESAR</button>
+                      </li>
+                        <li class="item-menu select"><a href="#inicio" class="">INICIO</a></li>
+                        <li class="item-menu "><a href="#experiencia">EXPERIENCIA</a></li>
+                        <li class="item-menu "><a href="#educacion">EDUCACIÓN</a></li>
+                        <li class="item-menu "> <a href="#proyectos">PROYECTOS</a></li>
+                        <li class="item-menu "><a href="#skills">SKILLS</a></li>
+                        <li class="item-menu "><a href="#intereses">INTERESES</a></li>
+                    </ul>
+            </div>
+            <div class="der d-flex justify-content-end">
+                    <button type="button" class="btn btn-secondary ingresar"><a href="#salir">INGRESAR</a> </button>
+                </div>
+
+            </div>
+             </nav>
+            </header>
+            
+
+        <div class="w-100 d-flex justify-content-center nav-responsive pb-3">
+                <nav class="navbar navbar-expand-lg navbar-dark  w-75">
+                    <div class="container-fluid">
+                        <div class="d-flex flex-column align-items-center">
+                            <a class="navbar-brand" href="#">
+                                <img src="./recursos/logo-argentina-programa-sin-fondo.png" class="logo-responsive" alt="">
+                            </a>
+                            <span class="subtitulo fs-5">#YoProgramo</span>
+                        </div>
+                    
+                      <button class="navbar-toggler botton-menu-responsive" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="menu-bar">
+                            <div class="uno"></div>
+                            <div class="dos"></div>
+                            <div class="tres"></div>
+                          </div>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav  navbar-responsive d-flex justify-content-center align-items-center">
+                          <li class="nav-item">
+                            <a class="nav-link active pt-5" aria-current="page" href="#">INICIO</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">EXPERIENCIA</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">EDUCACIÓN</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">PROYECTOS</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">SKILLS</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">INTERESES</a>
+                          </li>
+                
+                          <button class="btn btn-outline-info w-75 fs-3 ingresar-responsive justify-content-center" type="submit">INGRESAR</button>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+    
+            </div>
+            
+            
+            <section class="sobre-mi contenedor-secciones d-flex justify-content-center align-items-center">
+
+                <div class="container-sobre-mi d-flex justify-content-center">
+                    <div class="sobre-mi-der d-flex flex-column align-content-between justify-content-between me-5"> 
+                        <h2 class="d-flex mb-2 titulo-sobre-mi">SOBRE MI </h2>
+                        <img src="recursos/yo.jpeg" class="imagen-perfil mt-5 mb-3"alt="">
+                        <h2><a href="#" target="_blank" rel="noopener noreferrer" class="descargar-cv">DESCARGAR CV</a></h2>
+                    </div>
+                    <div class="sobre-mi-izq ms-5">
+                        <span class="d-flex ">
+                            ¡HOLA!<br>
+                            SOY DEVELOPER WEB FULL STACK JR. <br>
+                            MI OBJETIVO ES OBTENER EXPERIENCIA, APLICANDO Y EXPANDIENDO MIS CONOCIMIENTOS <BR>
+                            EN PROYECTOS Y NUEVOS DESAFÍOS.<BR>
+                            SOY RESPONSABLE, AUTODIDACTA Y AUTOGESTIONO MI TIEMPO.<BR>
+                            AMO TRABAJAR EN EQUIPO Y CULTIVAR MI CREATIVIDAD.
+                        </span>
+                        <div class=" mt-5 d-flex cuadro-info justify-content-around align-items-center">
+                            <ul class="ps-4">
+                                <li>Santa Fe, Argentina</li>
+                                <li>15/07/1997 (25 años)</li>
+                                <li>1 año de experiencia</li>
+                            </ul>
+                            <ul class="pt-2 pb-2">
+                                <li>Presencial o remoto</li>
+                                <li>Disponibilidad Full time
+                                <li>Inglés básico
+                                </li>
+                            </ul>
+                    </div>
+              
+                    </div>
+                </div>
+             <div class="sobre-mi-responsive d flex-column justify-content-center">
+                <div class="sobre-mi-der d-flex flex-column  justify-content-between"> 
+                    <h2 class="d-flex mb-2 titulo-sobre-mi mb-5 me-3 ">SOBRE MI </h2>
+                </div>
+                <div class="sobre-mi-izq mb-5 d-flex justify-content-center align-items-center flex-column">
+                    <span class="d-flex justify-content-center ms-5 me-5">
+                        ¡HOLA!<br>
+                        SOY DEVELOPER WEB FULL STACK JR. <br>
+                        MI OBJETIVO ES OBTENER EXPERIENCIA,<BR>
+                         APLICANDO Y EXPANDIENDO MIS CONOCIMIENTOS <BR>
+                        EN PROYECTOS Y NUEVOS DESAFÍOS.<BR>
+                        SOY RESPONSABLE, AUTODIDACTA Y AUTOGESTIONO MI TIEMPO.<BR>
+                        AMO TRABAJAR EN EQUIPO Y CULTIVAR MI CREATIVIDAD.
+                    </span>
+                    <div class=" mt-5 d-flex flex-column cuadro-info justify-content-center align-items-center">
+                        <ul class="">
+                            <li>Santa Fe, Argentina</li>
+                            <li>15/07/1997 (25 años)</li>
+                            <li>1 año de experiencia</li>
+                        </ul>
+                        <ul class="pt-2 pb-2">
+                            <li>Presencial o remoto</li>
+                            <li>Full time
+                            <li>Inglés básico
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <h2><a href="#" target="_blank" rel="noopener noreferrer" class="descargar-cv pt-5">DESCARGAR CV</a></h2>
+
+             </div>
+            </section>
+
+            <section class="contenedor-secciones experiencias d-flex flex-column align-items-center" id="experiencia">
+                <h2 class="titulo-sobre-mi mt-5 pt-5">EXPERIENCIA</h2>
+                <div class="row d-flex w-75 justify-content-between mt-5">
+                    <div class="col col-sm-6 col-md-6 col-lg-3 mb-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./recursos/Logo-alas.png" class="card-img-top p-5" alt="...">
+                            <div class="card-body p-2 mt-3 mb-2">
+                              <h5 class="card-title">Coordinadora de TICs</h5>
+                              <p class="card-text">Alas Empresa Jr.</p>
+                            </div>
+                            <ul class="list-group list-group-flush p-2">
+                              <li class="list-group-item">Desarrollo y mantenimiento en
+                                (WordPress).
+                            </li>
+                              <li class="list-group-item">Correos corporativos.</li>
+                              <li class="list-group-item">Relevar requerimientos</li>
+                            </ul>
+                            <div class="card-body p-2">
+                              <a href="#" class="card-link">https://www.alasempresajunior.com.ar/</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-sm-6 col-md-6 col-lg-3 mb-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./recursos/Logo.png" class="card-img-top " alt="...">
+                            <div class="card-body p-2">
+                              <h5 class="card-title">DESARROLLADORA WEB</h5>
+                              <p class="card-text">MisterioZ</p></div>
+                            <ul class="list-group list-group-flush p-2">
+                              <li class="list-group-item">Diseñar página en Adobe XD</li>
+                              <li class="list-group-item">Desarrollarla con CSS y HTML</li>
+                              <li class="list-group-item">Responsive design.</li>
+                            </ul>
+                            <div class="card-body p-2">
+                              <a href="#" class="card-link">https://misterioz.com/</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col col-sm-1 col-md-6 col-lg-3 mb-5">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./recursos/Adobe_XD_CC_icon.svg.png" class="card-img-top p-5" alt="...">
+                            <div class="card-body p-2">
+                              <h5 class="card-title">DISEÑADORA</h5>
+                              <p class="card-text">Freelancer</p>
+                            </div>
+                            <ul class="list-group list-group-flush p-2">
+                              <li class="list-group-item">Tratar con el cliente</li>
+                              <li class="list-group-item">Realizar el diseño con sus revisiones en Adobe XD e ilustrator</li>
+                            </ul>
+                            <div class="card-body">
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                
+               
+              
+            </section>
+
+            <section class="contenedor-secciones educacion d-flex flex-column align-items-center" id="educacion">
+                <h2 class="titulo-sobre-mi mt-5 pt-5">EDUCACIÓN</h2>
+                <div class="row d-flex w-75 justify-content-between mt-5">
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed p-3 text-dark bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            YO PROGRAMO-Desarrollo web Full Stack Jr
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body p-3">
+                            <strong>ARGENTINA PROGRAMA En curso</strong> 
+                            <ul>
+                              <li>-Git y Git Hub</li>
+                              <li>-Gestión de tiempo</li>
+                              <li>-SCRUM</li>
+                              <li>-HTML:5</li>
+                              <li>-CSS</li>
+                              <li>-BOOSTRAP</li>
+                              <li>-JavasCript</li>
+                              <li>-Angular</li>
+                              <li>-Base de datos</li>
+                              <li>-Programación Orientada a Objetos</li>
+                              <li>-Programa web con JAVA</li>
+                              <li>-Back End con Spring Boot</li>
+                              <li></li>
+                              <li></li>
+
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button p-3 text-dark bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              I2T-ETAPA 1-2022 SE PROGRAMAR
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body p-3">
+                              <strong>MUMUKI Junio 2022 </strong>
+                              <ul>
+                              <li>-Fundamentos de lógica</li>
+                              <li>-Fundamentos de JavasCript </li>
+                              <li>-Ruby básico</li>
+                            </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed p-3 text-dark bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              RESPONSIVE WEB DESIGNE
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body p-3">
+                              <strong>FREECODECAMP abril 2022</strong> 
+                              <ul>
+                                <li>-Css</li>
+                                <li>-HTML</li>
+                                <li>-Responsive design</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                </div>
+
+            </section>
+
+            <section class="contenedor-secciones proyectos d-flex flex-column align-items-center" id="proyectos">
+                <h2 class="titulo-sobre-mi mt-5 pt-5">PROYECTOS</h2>
+                <div id="carouselExampleCaptions" class="carousel slide mb-5 pt-5" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./recursos/diseño-app.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-bg-dark p-3">
+                          <h5>DISEÑO ADOBE XD</h5>
+                          <p>Aplicación para celular de rol.
+                            </p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./recursos/diseño-pag.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-bg-dark p-3">
+                          <h5>DISEÑO ADOBE XD</h5>
+                          <p>Distribuidora de productos alimenticios.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./recursos/deskyop-4.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block text-bg-dark p-3">
+                          <h5>WordPress</h5>
+                          <p>Página Web hecha para un proyecto de carrera de Universidad en Alemania.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+            </section>
+           
+            <section class="contenedor-secciones skills d-flex flex-column align-items-center" id="skills">
+                <h2 class="titulo-sobre-mi mt-5 pt-5">SKILLS</h2>
+               
+            </section>
+
+           
+      
+
+
+    -->
+</body>
+</html>

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: visible;
+  }
+
+  .experiencias{
+   top: 200vh;
+   padding-top: 30px!important;
+   padding-bottom: 30px!important;
+
+  }
+  .experiencias h2{
+    color: rgb(176, 214, 248);
+  }
+
+  .educacion{
+    top:300vh;
+    padding-top: 30px!important;
+  }
+  .educacion h2{
+    color: rgb(176, 214, 248);
+
+  }
+  .proyectos{
+    top:400vh;
+    padding-top: 30px!important;
+    
+  }
+  .proyectos h2{
+    color: rgb(176, 214, 248);
+  }
+
+  .skills{
+    top: 500vh;
+  }
+
+  .skills h2{
+    color: rgb(176, 214, 248);
+  }
