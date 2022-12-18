@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+.font1{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+body{
+  background-color: rgb(3, 0, 23);
+}

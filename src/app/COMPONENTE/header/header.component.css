@@ -1,0 +1,161 @@
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar{
+  width: 90%;
+}
+.ocultar-nombre{
+  display:none;
+}
+
+.ingresar{
+  letter-spacing: 2px;
+  border-radius: 17px;
+  font-family:"raleway"!important;
+  padding:15px 22px !important;
+  font-size: 16px;
+}
+.ingresar:hover{
+color: rgb(7, 0, 44);
+font-weight: 600;
+}
+.logo-enlace{
+  width: 140px;
+  height: 80px;
+}
+ul li a{
+  color: #ffffff;
+  font-size: 40px!important;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0 20px 0 20px!important;
+  letter-spacing:1px;
+  cursor: pointer;
+}
+ul li a:hover{
+  color: #64c5f5;
+}
+ul{
+  padding-left: 300px;
+}
+
+.subtitulo{
+color: white;
+font-size: 10px;
+z-index: 2000;
+}
+@media (max-width: 991px) {
+.navbar .navbar-collapse ul li a{
+
+  color: white!important;
+}
+.ocultar-nombre{
+  display: inline;
+  margin-left: 10px;
+}
+}
+
+
+/*
+header{
+  top:0;
+  position: fixed;
+  width: 100vw;
+  font-size: 16px;
+color: rgb(255, 255, 255);
+z-index: 1000000;
+background-color: rgba(0, 0, 0, 0.786);
+}
+.barra-inicio{
+  width: 85%;
+height: 80px;
+overflow-y: hidden;
+    width: 100v;
+max-width: 1800px!important;
+}
+
+
+.izq{
+  height: 120px;
+}
+
+.izq span{
+  color: white;
+  font-size: 10px;
+  z-index: 2000;
+  top: -10px;
+}
+
+ul{
+  list-style: none;
+
+
+
+
+.item-menu.select a{
+  color:#00D1FF;
+  font-weight: 600;
+}
+.item-menu.select:hover a{
+  color:#00D1FF;
+}
+
+.item-menu:hover a{
+  color: white;
+}
+
+.der{
+
+  width: 300px;
+
+}
+
+.ingresar{
+  letter-spacing: 2px;
+  border-radius: 17px;
+  font-family:"raleway"!important;
+  padding:15px 22px !important;
+  font-size: 16px;
+  background-color: black;
+}
+.ingresar a{
+  color: #0088FF;
+
+}
+
+.ingresar:hover a{
+  color:rgb(89, 194, 255)!important;
+}
+.open-menu, .close-menu, .ingresar-responsive{
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .logo{
+   width: 140px;
+   height: 80px;
+  }
+  ul a{
+   font-size: 30px;
+  }
+  .barra-inicio{
+   width: 90%!important;
+  }
+  .ingresar{
+   font-size: medium!important;
+   padding: 5px 10px 5px 10px!important;
+  }
+
+}
+
+@media (max-width: 600px) {
+   .logo{
+       width: 100px;
+       height: 70px;
+   }
+   ul a{
+       font-size: 20px;
+      }
+}
+
+*/
