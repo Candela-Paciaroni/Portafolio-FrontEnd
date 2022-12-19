@@ -11,6 +11,9 @@ import { HeaderComponent } from './COMPONENTE/header/header.component';
 import { PortadaComponent } from './COMPONENTE/portada/portada.component';
 import { BotonesComponent } from './COMPONENTE/botones/botones.component';
 import { NavBarComponent } from './COMPONENTE/nav-bar/nav-bar.component';
+import { ExperienciaComponent } from './COMPONENTE/experiencia/experiencia.component';
+import { EntreSeccionesComponent } from './COMPONENTE/entre-secciones/entre-secciones.component';
+
 
 
 @NgModule({
@@ -20,6 +23,8 @@ import { NavBarComponent } from './COMPONENTE/nav-bar/nav-bar.component';
     PortadaComponent,
     BotonesComponent,
     NavBarComponent,
+    ExperienciaComponent,
+    EntreSeccionesComponent,
 
   ],
   imports: [

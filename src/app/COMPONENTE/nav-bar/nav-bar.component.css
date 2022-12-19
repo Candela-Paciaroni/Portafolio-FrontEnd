@@ -1,0 +1,38 @@
+.container-position-nav{
+  position: absolute;
+  top:700px;
+    width:100%;
+    background-color: aqua;
+}
+nav{
+  background:
+  url(src\assets\header-dark-blue.png);
+  background-position: center;
+  background-size: cover;
+  position: sticky;
+  top: 0;
+  
+}
+ul{
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #d9ff00;
+}
+nav ul li{
+  border-bottom: 2px solid aqua;
+
+}
+nav ul li:hover{
+  border-bottom: 2px solid #d9ff00;
+}
+
+@media (max-width: 991px) {
+  nav{
+    display: none;
+  }
+  .container-position-nav{
+display: none;
+  }
+}

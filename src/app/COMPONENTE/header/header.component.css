@@ -46,12 +46,35 @@ z-index: 2000;
 }
 @media (max-width: 991px) {
 .navbar .navbar-collapse ul li a{
-
+  background-color: black!important;
   color: white!important;
+  padding: 20px!important;
+  font-size: 20px!important;
+}
+.navbar .navbar-collapse ul li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.navbar .navbar-collapse ul{
+  padding: 0;
+}
+.navbar{
+  background-color: black;
+  width: 100vw;
+}
+.navbar form{
+  justify-content: center;
+  padding: 20px;
+}
+.navbar .ingresar{
+  font-size: 20px!important;
+  font-weight: 600;
 }
 .ocultar-nombre{
   display: inline;
   margin-left: 10px;
+  padding: 10px;
 }
 }
 
