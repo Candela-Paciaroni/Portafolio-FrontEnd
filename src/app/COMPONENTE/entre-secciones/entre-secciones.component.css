@@ -14,5 +14,12 @@
   url(src\assets\experiencia-img.jpg);
   background-size: cover;
 
-  
+
+}
+@media (max-width: 600px) {
+  .inter-secciones{
+    width:350px!important;
+    height: 250px;
+
+  }
 }

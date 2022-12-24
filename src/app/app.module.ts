@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 //inicio servicios
 import { CargarScriptsService } from './cargar-scripts.service';
 //fin servicios
-
+import { AppRoutingModuleTsModule } from './app-routing.module/app-routing.module.ts.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './COMPONENTE/header/header.component';
 import { PortadaComponent } from './COMPONENTE/portada/portada.component';
@@ -18,6 +17,11 @@ import { EntreSecSkillsComponent } from './COMPONENTE/entre-sec-skills/entre-sec
 import { SkillsComponent } from './COMPONENTE/skills/skills.component';
 import { EntreSecProyComponent } from './COMPONENTE/entre-sec-proy/entre-sec-proy.component';
 import { ProyectoComponent } from './COMPONENTE/proyecto/proyecto.component';
+import{ DatosPortafolioService} from './SERVICIOS/datos-portafolio.service';
+import { SessionComponent } from './COMPONENTE/session/session.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule} from '@angular/common/http';
+import { PersonaService } from './SERVICIOS/persona.service';
 
 
 
@@ -36,14 +40,19 @@ import { ProyectoComponent } from './COMPONENTE/proyecto/proyecto.component';
     SkillsComponent,
     EntreSecProyComponent,
     ProyectoComponent,
+    SessionComponent,
+
 
   ],
   imports: [
     BrowserModule,
-
+    HttpClientModule,
+    AppRoutingModuleTsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [
-    CargarScriptsService
+    PersonaService
   ],
   bootstrap: [AppComponent]
 })

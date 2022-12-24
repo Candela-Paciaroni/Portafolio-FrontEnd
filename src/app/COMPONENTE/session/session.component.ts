@@ -1,0 +1,23 @@
+import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup,Validators } from '@angular/forms';
+
+@Component({
+  selector: 'app-session',
+  templateUrl: './session.component.html',
+  styleUrls: ['./session.component.css']
+})
+export class SessionComponent implements OnInit{
+  form:FormGroup;
+  constructor(private formBuilder:FormBuilder){
+    this.form=this.formBuilder.group(
+      {
+        email: ['', [Validators.required,Validators.email] ],
+        password:['', [Validators.required, Validators.minLength(8)]],
+
+      }
+    )
+  }
+  ngOnInit():void
+  {}
+
+}

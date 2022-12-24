@@ -8,9 +8,14 @@ import { DatosPortafolioService } from 'src/app/SERVICIOS/datos-portafolio.servi
 })
 export class EducacionComponent implements OnInit {
 
+  miPortafolio:any;
+
   constructor(private datosPortafolio:DatosPortafolioService){}
 
   ngOnInit():void {
-    this.datosPortafolio.obtenerDatos();
+    this.datosPortafolio.obtenerDatos().subscribe(data=>{
+      console.log(data);
+      this.miPortafolio=data;
+    });
   }
 }

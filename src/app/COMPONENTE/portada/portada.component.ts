@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CargarScriptsService } from 'src/app/cargar-scripts.service';
+import { PersonaService } from 'src/app/SERVICIOS/persona.service';
+import { person } from 'src/app/model/person.model';
 @Component({
   selector: 'mi-portada',
   templateUrl: './portada.component.html',
@@ -7,12 +8,13 @@ import { CargarScriptsService } from 'src/app/cargar-scripts.service';
 })
 export class PortadaComponent implements OnInit {
 
-  constructor(private _CargaScripts:CargarScriptsService)
-  {
-  _CargaScripts.Carga(["texto"]);
-   }
+  person: person = new person("","","");
+  constructor (public personaService:PersonaService){}
+
+
 
   ngOnInit(): void {
+    this.personaService.getPerson().subscribe(data => {this.person=data})
   }
 
 }
